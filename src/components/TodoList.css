@@ -1,0 +1,29 @@
+.page {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 200px;
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    background-color: #e6e6fa; /* Optional: Set a background */
+  }
+  
+
+  .logout-button {
+    position: fixed; /* Fixed position relative to the viewport */
+    top: 20px;
+    left: 20px;
+    padding: 12px;
+    background-color: #B57EDC; /* Background color */
+    color: white;
+    border: 1px solid white; /* White border for contrast */
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Button hover effect */
+  .logout-button:hover {
+    background-color: #9a68c2; /* Darker shade on hover */
+  }

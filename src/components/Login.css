@@ -1,0 +1,106 @@
+/* Apply consistent box sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; /* Default font */
+  color: #AAABB7; /* Apply text color globally */
+}
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Centering the login form */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #B57EDC;
+}
+
+/* Heading font style for the h1 */
+.login-container h1 {
+  font-size: 2.5rem;  /* Big heading */
+  font-weight: 700;
+  color: white;  /* Matching color */
+  margin-bottom: 40px;  /* Space between h1 and login box */
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Using Roboto for better typography */
+}
+
+/* Form Box */
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Using Roboto for better typography */
+}
+
+/* Heading inside the form */
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #AAABB7;
+}
+
+/* Input Fields */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  color: #AAABB7; /* Set text color */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Placeholder color */
+.login-box input::placeholder {
+  color: #AAABB7; /* Set placeholder color to match text */
+}
+
+/* Input focus effect */
+.login-box input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Buttons */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: white;
+  color: #AAABB7;
+  border: 1px solid #AAABB7;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Button hover effect */
+.login-box button:hover {
+  background: #f1f1f1;
+}
+
+/* Remove green for Sign Up button */
+.login-box button:last-of-type {
+  background: white;
+  color: #AAABB7;
+  border: 1px solid #AAABB7;
+}
+
+.login-box button:last-of-type:hover {
+  background: #f1f1f1;
+}
